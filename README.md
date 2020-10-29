@@ -4,7 +4,7 @@
       
     ## Desription
             
-    A simple project to generate a readme from the node terminal
+    A simple application to ask the user a set of questions in order to easily generate a thorough README file.
     
     ## Table of Contents
     
@@ -17,10 +17,10 @@
     * [Questions](#questions)
     
     ## Installation Instructions
-    n/a
+    Start the program with "node index.js" Answer each of the subsequent questions to generate your README.
     
     ## Usage Data
-    test
+    Answer a set of questions provided by the application to generate a README file.
     
     ## License Information
     ![License](https://img.shields.io/badge/License--green.svg "License Badge")
@@ -29,7 +29,7 @@
     Eric Menatti
     
     ## Tests
-    N/a
+    N/A
     
     ## Questions
     

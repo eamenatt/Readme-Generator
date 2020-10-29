@@ -46,6 +46,7 @@ const query = [
             "MIT",
             "ISC",
             "GNU",
+            "None"
         ]
     },
     {
