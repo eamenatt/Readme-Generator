@@ -25,12 +25,12 @@ const query = [
     {
         name: "usage",
         type: "input",
-        message: "What is the intended use for your application? ",
+        message: "Describe the applications use and functionality: ",
     },
     {
         name: "contributors",
         type: "input",
-        message: "Who has contributed to this project? ",
+        message: "List all project contributors: ",
     },
     {
         name: "tests",
@@ -40,37 +40,34 @@ const query = [
     {
         name: "license",
         type: "checkbox",
-        message: "Choose a license type",
+        message: "Choose a license type: ",
         choices: [
             "Apache",
             "MIT",
             "ISC",
             "GNU",
-            
-            "Mozilla Public License 2.0",
-            "The Unlicense"
         ]
     },
     {
-        name: "GitHub Account",
+        name: "username",
         type: "input",
         message: "Enter your GitHub username: ",
     },
     {
-        name: "Contact for questions (email)",
+        name: "email",
         type: "input",
         message: "Enter the email address where questions should be directed: ",
     },
 
 ];
 
-//store answers to const and write to readme file.
+//store answers to respnse and write to readme file.
 async function init() {
     try {
-        const userResponse = await inquirer.prompt(questions);
+        const userResponse = await inquirer.prompt(query);
         const generatedReadMe = markDown.generateMarkdown(userResponse);
         await writeFileAsync("README.md", generatedReadMe);
-        console.log(userResponse);
+        // console.log(userResponse);
     } catch (err) {
         console.log(err);
     }

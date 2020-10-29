@@ -38,7 +38,7 @@ function generateMarkdown(data) {
     
     For Questions or Comments please reach out to:
     Email: ${data.email}
-    [https://${data.gitHubUserName}.github.io](https://${data.gitHubUserName}.github.io)
+    [https://${data.username}.github.io](https://${data.username}.github.io)
     
     `;
   }
