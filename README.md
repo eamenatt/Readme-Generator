@@ -20,6 +20,7 @@ Start the program with "node index.js" Answer each of the subsequent questions t
     
 ## Usage Data
 Answer a set of questions provided by the application to generate a README file.
+![image](https://user-images.githubusercontent.com/68793022/97604185-9ac7fb80-19e3-11eb-805e-af489c77083a.PNG)
     
 ## License Information
 ![License](https://img.shields.io/badge/License--green.svg "License Badge")
